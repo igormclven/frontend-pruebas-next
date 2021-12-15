@@ -26,7 +26,7 @@ function ToDoPage() {
           <h1>TODO List</h1>
           <ul>
               {toDos.map( toDo =>
-                  <div class='card'>
+                  <div class='card' key={toDo.pk}>
                       {toDo.fields.nombre} - <Image src={toDo.fields.url} width={200} height={200} />
                   </div>
               )}
