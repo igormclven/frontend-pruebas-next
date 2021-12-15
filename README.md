@@ -1,4 +1,4 @@
-# Basic Django Backend
+# Basic NextJS Frontend
 
 This project is developed in nextJS and deployed in vercel, in order to show a simple (super simple) implementation of an API. It fetch a json, which is built from django models (backend project).
 
