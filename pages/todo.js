@@ -28,8 +28,8 @@ function ToDoPage() {
 
         <div className="row mt-4">
             {toDos.map( toDo =>
-            <div className="col-sm-4 d-flex">
-                <div className="card mb-4" key={toDo.pk}>
+            <div className="col-sm-4 d-flex" key={toDo.pk}>
+                <div className="card mb-4">
                     <Image src={toDo.fields.url} width={400} height={250} />
                     <div className="card-body">
                         <h5 className="card-title">{toDo.fields.nombre}</h5>
