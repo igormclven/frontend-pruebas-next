@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Image from 'next/image';
 
 function ToDoPage() {
   const [ toDos, setToDos ] = useState()
@@ -22,15 +21,26 @@ function ToDoPage() {
       return <p>No List to show</p>
   }
   return (
-      <div>
-          <h1>TODO List</h1>
-          <ul>
-              {toDos.map( toDo =>
-                  <li key={toDo.pk}>
-                      {toDo.fields.nombre} - <Image src={toDo.fields.url} width={200} height={200} />
-                  </li>
-              )}
-          </ul>
+    <div className="container p-3">
+
+        <h1>List of Products</h1>
+
+        <div class="row mt-4">
+            {toDos.map( toDo =>
+            <div class="col-sm-4 d-flex">
+                <div class="card mb-4" key={toDo.pk}>
+                    <img class="card-img-top" src={toDo.fields.url} alt="Product Image" />
+                    <div class="card-body">
+                        <h5 class="card-title">{toDo.fields.nombre}</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            )}
+        </div>
+          
+
       </div>
   )
 }
