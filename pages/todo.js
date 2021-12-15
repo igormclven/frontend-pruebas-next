@@ -6,7 +6,15 @@ function ToDoPage() {
   const [isLoading, setIsLoading] = useState(false)
   useEffect(() => {
       setIsLoading(true)
-      fetch('https://backend-pruebas-next.herokuapp.com/data')
+      fetch('https://backend-pruebas-next.herokuapp.com/data',
+      {
+        mode: 'no-cors',
+        headers: {
+             "Content-Type": "application/json",
+             "Access-Control-Allow-Origin" : "*", 
+              "Access-Control-Allow-Credentials" : true, 
+        }}
+      )
           .then(response => response.json())
           .then(data => {
               setToDos(data)
