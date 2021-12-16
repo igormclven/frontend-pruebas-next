@@ -1,11 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
 
 import Navbar from "../components/Navbar.js";
 import Footer from "../components/Footer.js";
 
 import React from "react";
-import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -21,6 +20,7 @@ export default function Home() {
       </Head>
 
       <Navbar fixed />
+
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
