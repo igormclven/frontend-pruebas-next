@@ -34,7 +34,6 @@ export default function Home() {
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
                   className="text-blueGray-600"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   Tailwind CSS
@@ -45,7 +44,6 @@ export default function Home() {
               <div className="mt-12">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
-                  target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
@@ -53,7 +51,6 @@ export default function Home() {
                 <a
                   href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                  target="_blank"
                 >
                   Github Star
                 </a>
@@ -99,7 +96,6 @@ export default function Home() {
                 <div className="my-4 w-full lg:w-6/12 px-4">
                   <a
                     href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
                       <img
@@ -114,7 +110,6 @@ export default function Home() {
                   </a>
                   <a
                     href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
@@ -129,7 +124,6 @@ export default function Home() {
                   </a>
                   <a
                     href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
@@ -146,7 +140,6 @@ export default function Home() {
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
                   <a
                     href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
                       <img
@@ -161,7 +154,6 @@ export default function Home() {
                   </a>
                   <a
                     href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
@@ -176,7 +168,6 @@ export default function Home() {
                   </a>
                   <a
                     href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
@@ -237,7 +228,6 @@ export default function Home() {
               </div>
               <a
                 href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
-                target="_blank"
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >
                 View all{" "}
@@ -268,7 +258,6 @@ export default function Home() {
                 <a
                   href="https://tailwindcss.com/?ref=creative"
                   className="text-blueGray-300"
-                  target="_blank"
                 >
                   Tailwind CSS
                 </a>{" "}
@@ -282,7 +271,6 @@ export default function Home() {
               </p>
               <a
                 href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
-                target="_blank"
                 className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
               >
                 Github Star
