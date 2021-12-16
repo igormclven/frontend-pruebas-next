@@ -59,7 +59,7 @@ export default function Home() {
           </div>
         </div>
         <img
-          className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-12 sm:mt-0 w-10/12 max-h-860-px"
+          className="absolute top-0 b-auto right-0 sm:w-6/12 -mt-12 sm:mt-0 w-10/12 max-h-860-px"
           src="/assets/pattern_nextjs.png"
           alt="..."
         />
